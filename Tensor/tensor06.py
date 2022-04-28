@@ -13,3 +13,6 @@ print(z)
 
 out = z.mean()
 print(out)
+
+out.backward()
+print(x.grad)
